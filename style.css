@@ -1,38 +1,145 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
     margin: 0;
+    padding: 0;
 }
+nav ul{
+    margin-bottom: 24px;
+}
+
 body {
-    font-family: 'Poppins',arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  
+/* img {
+    width: 100%;  
+} */
+header {
+    margin-bottom: 48px;
+}
+img {
+    display: block;
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    margin: 48px auto 48px;
 }
 h1 {
     color: rgb(35, 162, 197);
     font-size: 48px;
     font-weight: 700;
     line-height: 1.75;
-    text-align: left;
-    letter-spacing: 3px;
-    margin: 10px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    text-transform: uppercase
 }
+.title {
+    text-align: center;
+}
+
 h2 {
-    color: green;
-    font-size: 24px;
-    font-weight: 700;
+    color: #000;
+    font-size: 26px;
+    font-weight: 600;
     line-height: 1.25;
-    text-align: left;
+    text-align:center;
+    margin-bottom: 20px;
+
 }
 
 h3 {
     color: #111827;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
-    line-height: 1.75;
+    line-height: 1.5;
+    margin-bottom: 24px;
   }
 
+h4 {
+    color: #111827;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 12px;
+  }
+
+
+  p, ul {
+    color: #374151;
+    line-height: 1.75;
+  }
 header p {
-    color: palevioletred;
     font-style: italic;
     line-height: 1.25;
-
+    margin-bottom: 15px;
+    margin-top: 15px;
 
 }
+nav ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+nav li a {
+    display: inline-block;
+    color: #141010;
+    font-size: 20px;  
+    transition: all 0.3s;
+  }
+nav li a:hover {
+    color: rgb(13, 207, 191);
+    font-size: 30px;
+}
+nav li a:focus {
+      color: rgb(224, 17, 127);
+  }
+  /* nav li a:active {
+    color: rgb(181, 224, 7);
+  }
+   */
+   article section:not(:last-child) {
+    margin-bottom: 48px;
+  }
+  article section>div:not(:last-child) {
+    margin-bottom: 32px;
+  }
+  article li:not(:last-child){
+    margin-bottom: 8px;
+  }
+  section ol>li:not(:last-child){
+    margin-bottom: 8px;
+  }
+
+  article ul {
+    padding-left: 24px;
+  }
+   footer {
+    text-align: center;
+    padding: 24px;
+  
+    /* border-width: 1px;
+    border-top-style: solid;
+    border-color: #e5e7eb; */
+  
+    border-top: 1px inset #e5e7eb;
+    margin-top: 24px;
+  }
+table, th, td{
+    border:2px solid black;
+}
+table{
+    border-collapse:collapse;
+}
+td {
+    padding: 16px;
+    /* margin: 16px; */
+}
+
